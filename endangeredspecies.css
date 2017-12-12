@@ -1,0 +1,86 @@
+/*
+* Maxine Lutz
+* December 11, 2017 
+* Endangered Species Project 
+*/
+
+
+/* The universal selector, it allows the programmer to change
+the margins and padding for the rest of the page. */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Put body attributes here */
+/* This is the body CSS that changes the width of the text, 
+sets the margins to auto, changes the font, and changes the
+color of the background. */
+body { 
+width: 1100px ;
+margin: auto ;
+font-family: Georgia ;
+background-color: #ffeb99 ;
+
+/* This puts a border around the bottom of the header
+and creates a margin around the header (the name of the animal. */
+}
+header {
+border-bottom: 2px solid black ; 
+margin: 10px;
+} 
+
+/* This makes the header (the name of the animal) centered. */
+h1 {
+text-align: center ;
+} 
+
+/* This floats the first image to the left and creates a margin for it. */
+img {
+float: left ;
+margin: 10px ; 
+}
+
+/* This gives each header a margin to give space between other paragraphs and
+it changes the color of the font. */
+h3 {
+margin-top: 1em ;
+margin-bottom: 1em ;
+color: #665200 ;
+} 
+
+/* This gives each of the three body paragraphs under the h3 titles
+margins that space the page out. */
+p {
+margin: margin: 2px 2px 2px 2px ;
+}
+
+/* This classifies the four images in the middle of the page so that 
+the size of them change, which allows the four pictures to be lined up
+next to each other in a row.*/
+.img1 {
+	width: 250px ;
+	height: 200px ;
+	}
+	
+/* This floats the last picture to the right and changes the size of it. */
+.img2 {
+	float: right ;
+	width: 150px ;
+	height: 150px ;
+	}
+
+/* This spaces out the last paragraph from the footer and creates
+a top border to separate the footer and the last paragraph. */
+footer {
+border-top: 2px solid black ;
+margin-top: 30px ;
+} 
+
+/* This classifies the last paragraph so that it can fit next to the 
+last picture (img2). */
+.p1 {
+width: 910px ;
+}
+
+
